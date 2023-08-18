@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>True</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="icons8-home-64 %282%29.png" />
+    <None Remove="icons8-home-64 %283%29.png" />
+    <None Remove="icons8-w-67 %281%29.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Management" Version="7.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="icons8-home-64 (2).png" />
+    <Resource Include="icons8-home-64 (3).png" />
+    <Resource Include="icons8-w-67 (1).png" />
+  </ItemGroup>
+
+</Project>
